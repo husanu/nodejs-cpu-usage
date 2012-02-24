@@ -3,10 +3,10 @@
 	"description" : "calculate cpu usage (for linux)",
 	"version" : "0.1",
 	"main" : "cpuusage.js",
-	"repository" : "git://github.com/husanu/nodejs-cpu-usage.git"
+	"repository" : "git://github.com/husanu/nodejs-cpu-usage.git",
 	"author" : {
 		"name" : "Andrei Husanu",
 		"email" : "husanu@gmail.com",
 		"url" : "http://husanu.bloq.ro"
-	},
+	}
 }
