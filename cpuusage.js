@@ -1,8 +1,4 @@
 var libfs = require( 'fs' );
-var libutil = require( 'util' );
-
-var lg = console.log;
-var dmp = libutil.inspect;
 
 var readStat = function( cb ) {
 	libfs.readFile( "/proc/stat", function( err, data ) {
