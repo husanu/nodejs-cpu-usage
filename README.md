@@ -13,10 +13,16 @@ Declaration:
 function cpuUsage( [ frequency, ] callback );
 ```
 
+Install:
+
+```
+npm install cpu-usage
+```
+
 Eg of use:
 
 ```
-var libCpuUsage = require( './cpuusage.js' );
+var libCpuUsage = require( 'cpu-usage' );
 
 libCpuUsage( 1000, function( load ) {
 	process.stdout.write( "\r" + load + "%   " );
