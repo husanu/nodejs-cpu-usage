@@ -1,7 +1,7 @@
 {
 	"name" : "cpu-usage",
 	"description" : "calculate cpu usage (for linux)",
-	"version" : "0.1",
+	"version" : "0.1.0",
 	"main" : "cpuusage.js",
 	"repository" : "git://github.com/husanu/nodejs-cpu-usage.git",
 	"author" : {
