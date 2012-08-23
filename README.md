@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/husanu/nodejs-cpu-usage.png)](http://travis-ci.org/husanu/nodejs-cpu-usage)
 # Nodejs Cpu Usage (for linux)
 
 Module read file /proc/stat and calculate Cpu Usage.
