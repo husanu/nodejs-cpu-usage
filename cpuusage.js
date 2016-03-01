@@ -25,8 +25,9 @@ function cpuUsage( freq, cb ) {
 			var idx = 1;
 			var count = 0;
 			while( count < 4 ) {
-				var t = parseInt( dRaw[ idx ] );
-				if( t ) {
+				var str = dRaw[ idx ];
+				if( str !=="" ) {
+					var t = parseInt( str );
 					count++;
 					d.push( t );
 				}
